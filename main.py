@@ -2,6 +2,7 @@ from plyer import notification
 import requests
 from bs4 import BeautifulSoup //parsing skeleton page into meaning full JSON format
 
+
 def notifyMe(title_message,display_message):
     notification.notify(
        title = title_message,
